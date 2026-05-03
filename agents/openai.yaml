@@ -1,0 +1,7 @@
+interface:
+  display_name: "Lean Code Edits"
+  short_description: "Lean guardrails for small, precise code changes."
+  default_prompt: "Use $lean-code-edits to make the smallest clean code change that solves this request."
+
+policy:
+  allow_implicit_invocation: true
